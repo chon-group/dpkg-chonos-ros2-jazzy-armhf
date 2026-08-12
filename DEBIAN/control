@@ -1,0 +1,28 @@
+Package: chonos-ros2-jazzy-armhf
+Version: 1.0.0
+Priority: optional
+Architecture: armhf
+Essential: no
+
+Depends: ros-dev-tools, python3, python3-yaml, python3-numpy, python3-cairo, python3-psutil, python3-rospkg, python3-lark, python3-jsonschema, python3-importlib-metadata, libc6, libgcc-s1, libstdc++6, libacl1, libconsole-bridge1.0, libexpat1, libfmt9, liblttng-ust1t64, liblttng-ust-common1t64, libpython3.12t64, libspdlog1.12, libssl3t64, libtinyxml2-10, libyaml-0-2, zlib1g, libyaml-cpp-dev, libeigen3-dev, libconsole-bridge-dev, libtinyxml2-dev, libasio-dev, libssl-dev, libspdlog-dev, liblttng-ust-dev, liblttng-ctl-dev, libsqlite3-dev, liborocos-kdl-dev, libbenchmark-dev, libgtest-dev, cmake, pkg-config
+
+Pre-Depends:
+
+Suggests:
+
+Installed-Size: 140000
+
+Maintainer: Nilson Lazarin <chon@grupo.cefet-rj.br>
+Homepage: https://github.com/chon-group/dpkg-chonos-ros2-jazzy-armhf
+
+Conflicts:
+
+Replaces:
+
+Provides: chonos-ros2-jazzy
+
+Description: ROS 2 Jazzy development environment for chonOS ARMHF
+ Provides a complete ROS 2 Jazzy development environment for chonOS ARMHF,
+ including the ROS 2 runtime, command-line tools, C++ and Python client
+ libraries, Fast DDS middleware support, demo nodes, development headers
+ and build tools.

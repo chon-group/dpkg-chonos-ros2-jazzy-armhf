@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+ROOT_BASHRC="/root/.bashrc"
+
+ROS_LINE='[ -f /opt/ros/jazzy/setup.bash ] && source /opt/ros/jazzy/setup.bash'
+OS_LINE='export ROS_OS_OVERRIDE=ubuntu:noble'
+
+touch "$ROOT_BASHRC"
+
+grep -qxF "$ROS_LINE" "$ROOT_BASHRC" ||
+    printf '\n%s\n' "$ROS_LINE" >> "$ROOT_BASHRC"
+
+grep -qxF "$OS_LINE" "$ROOT_BASHRC" ||
+    printf '%s\n' "$OS_LINE" >> "$ROOT_BASHRC"
+
+exit 0
