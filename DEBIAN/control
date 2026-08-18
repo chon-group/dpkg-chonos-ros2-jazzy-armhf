@@ -1,12 +1,12 @@
 Package: chonos-ros2-jazzy-armhf
-Version: 1.0.0
+Version: 2.0.0
 Priority: optional
 Architecture: armhf
 Essential: no
-Depends: ros-dev-tools, python3, python3-yaml, python3-numpy, python3-cairo, python3-psutil, python3-rospkg, python3-lark, python3-jsonschema, python3-importlib-metadata, libc6, libgcc-s1, libstdc++6, libacl1, libconsole-bridge1.0, libexpat1, libfmt9, liblttng-ust1t64, liblttng-ust-common1t64, libpython3.12t64, libspdlog1.12, libssl3t64, libtinyxml2-10, libyaml-0-2, zlib1g, libyaml-cpp-dev, libeigen3-dev, libconsole-bridge-dev, libtinyxml2-dev, libasio-dev, libssl-dev, libspdlog-dev, liblttng-ust-dev, liblttng-ctl-dev, libsqlite3-dev, liborocos-kdl-dev, libbenchmark-dev, libgtest-dev, cmake, pkg-config
+Depends: libacl1, libc6, libconsole-bridge1.0, libexpat1, libfmt10, libgcc-s1, liblttng-ust1t64, liblttng-ust-common1t64, libpython3.13, libspdlog1.15, libssl3t64, libstdc++6, libtinyxml2-11, libyaml-0-2, libzstd1, zlib1g, python3, python3-yaml, python3-lark, python3-psutil, python3-numpy, python3-cryptography
 Pre-Depends:
 Suggests:
-Installed-Size: 140000
+Installed-Size: 145000
 Maintainer: Nilson Lazarin <chon@grupo.cefet-rj.br>
 Homepage: https://github.com/chon-group/dpkg-chonos-ros2-jazzy-armhf
 Conflicts:
