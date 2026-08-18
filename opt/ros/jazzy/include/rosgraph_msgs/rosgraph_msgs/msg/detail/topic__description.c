@@ -23,10 +23,10 @@ rosgraph_msgs__msg__Topic__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/duration__functions.h"
-#include "rosgraph_msgs/msg/detail/interface_type__functions.h"
-#include "rosgraph_msgs/msg/detail/type_hash__functions.h"
 #include "rosgraph_msgs/msg/detail/qo_s_profile__functions.h"
+#include "rosgraph_msgs/msg/detail/type_hash__functions.h"
+#include "rosgraph_msgs/msg/detail/interface_type__functions.h"
+#include "builtin_interfaces/msg/detail/duration__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

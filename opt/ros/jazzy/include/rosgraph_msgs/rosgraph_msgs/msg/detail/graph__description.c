@@ -23,18 +23,18 @@ rosgraph_msgs__msg__Graph__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rcl_interfaces/msg/detail/floating_point_range__functions.h"
-#include "rosgraph_msgs/msg/detail/topic__functions.h"
 #include "rcl_interfaces/msg/detail/parameter_value__functions.h"
-#include "rosgraph_msgs/msg/detail/interface_type__functions.h"
-#include "rcl_interfaces/msg/detail/integer_range__functions.h"
 #include "rosgraph_msgs/msg/detail/qo_s_profile__functions.h"
-#include "rosgraph_msgs/msg/detail/action__functions.h"
-#include "rosgraph_msgs/msg/detail/service__functions.h"
-#include "rosgraph_msgs/msg/detail/type_hash__functions.h"
 #include "builtin_interfaces/msg/detail/duration__functions.h"
+#include "rcl_interfaces/msg/detail/floating_point_range__functions.h"
 #include "rosgraph_msgs/msg/detail/node__functions.h"
+#include "rosgraph_msgs/msg/detail/type_hash__functions.h"
+#include "rcl_interfaces/msg/detail/integer_range__functions.h"
+#include "rosgraph_msgs/msg/detail/action__functions.h"
+#include "rosgraph_msgs/msg/detail/interface_type__functions.h"
 #include "rcl_interfaces/msg/detail/parameter_descriptor__functions.h"
+#include "rosgraph_msgs/msg/detail/service__functions.h"
+#include "rosgraph_msgs/msg/detail/topic__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

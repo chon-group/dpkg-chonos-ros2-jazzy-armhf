@@ -29,7 +29,7 @@ else()
     "${rosidl_typesupport_fastrtps_cpp_BIN}")
 
   set(rosidl_typesupport_fastrtps_cpp_GENERATOR_FILES
-    "${rosidl_typesupport_fastrtps_cpp_DIR}/../../../lib/python3.12/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py")
+    "${rosidl_typesupport_fastrtps_cpp_DIR}/../../../lib/python3.13/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py")
   normalize_path(rosidl_typesupport_fastrtps_cpp_GENERATOR_FILES
     "${rosidl_typesupport_fastrtps_cpp_GENERATOR_FILES}")
 

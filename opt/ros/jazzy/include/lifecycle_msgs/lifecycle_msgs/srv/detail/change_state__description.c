@@ -68,8 +68,8 @@ lifecycle_msgs__srv__ChangeState_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "lifecycle_msgs/msg/detail/transition__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
+#include "lifecycle_msgs/msg/detail/transition__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types

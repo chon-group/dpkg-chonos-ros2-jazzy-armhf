@@ -23,9 +23,9 @@ rcl_interfaces__msg__ParameterEvent__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "rcl_interfaces/msg/detail/parameter__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "rcl_interfaces/msg/detail/parameter_value__functions.h"
+#include "rcl_interfaces/msg/detail/parameter__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

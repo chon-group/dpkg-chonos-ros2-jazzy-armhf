@@ -11,6 +11,6 @@ normalize_path(rosidl_generator_type_description_BIN
   "${rosidl_generator_type_description_BIN}")
 
 set(rosidl_generator_type_description_GENERATOR_FILES
-  "${rosidl_generator_type_description_DIR}/../../../lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py")
+  "${rosidl_generator_type_description_DIR}/../../../lib/python3.13/site-packages/rosidl_generator_type_description/__init__.py")
 normalize_path(rosidl_generator_type_description_GENERATOR_FILES
   "${rosidl_generator_type_description_GENERATOR_FILES}")

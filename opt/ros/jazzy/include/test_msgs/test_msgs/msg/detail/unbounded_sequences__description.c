@@ -23,8 +23,8 @@ test_msgs__msg__UnboundedSequences__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "test_msgs/msg/detail/basic_types__functions.h"
 #include "test_msgs/msg/detail/defaults__functions.h"
+#include "test_msgs/msg/detail/basic_types__functions.h"
 #include "test_msgs/msg/detail/constants__functions.h"
 
 // Hashes for external referenced types

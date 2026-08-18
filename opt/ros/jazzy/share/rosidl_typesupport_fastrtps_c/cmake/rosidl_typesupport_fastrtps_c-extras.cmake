@@ -28,7 +28,7 @@ else()
     "${rosidl_typesupport_fastrtps_c_BIN}")
 
   set(rosidl_typesupport_fastrtps_c_GENERATOR_FILES
-    "${rosidl_typesupport_fastrtps_c_DIR}/../../../lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py")
+    "${rosidl_typesupport_fastrtps_c_DIR}/../../../lib/python3.13/site-packages/rosidl_typesupport_fastrtps_c/__init__.py")
   normalize_path(rosidl_typesupport_fastrtps_c_GENERATOR_FILES
     "${rosidl_typesupport_fastrtps_c_GENERATOR_FILES}")
 
